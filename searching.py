@@ -61,6 +61,8 @@ def binary_search(sequence, wanted_number):
             right_margin = middle -1
     return None
 
+def pattern_search(sequence, wanted_pattern):
+
 
 def main():
     sequential_data = read_data("sequential.json", "unordered_numbers")
